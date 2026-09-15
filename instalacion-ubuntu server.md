@@ -1,1 +1,3 @@
-ubuntu server
+# ubuntu server
+
+![captura error](./captura de error)
