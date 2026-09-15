@@ -1,3 +1,3 @@
 # ubuntu server
 
-![captura error](./captura de error.png)
+![captura error](./capturadeerror.png)
