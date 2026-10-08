@@ -17,5 +17,3 @@ Sudo htpasswd -c /etc/apache2/.htpasswd alumno
 sudo nano /etc/apache2/ports.conf
     cuando estoy en este archivo añadir el listen 9999
 
-
-
