@@ -21,19 +21,21 @@ sudo nano /etc/apache2/ports.conf
     sudo nano /etc/apache2/sites -available/smr.conf    me vot aqui y pego este commando </h4> 
     
 
-  ``  <VirtualHost *:80>
-ServerName www.smr.com
-DocumentRoot /var/www/smr/web
+  ```apache
+<VirtualHost *:80>
+    ServerName [www.smr.com](https://www.smr.com)
+    DocumentRoot /var/www/smr/web
 </VirtualHost>
-<VirtualHost *:9999>
-ServerName www.smr.com
-DocumentRoot /var/www/smr/intranet
-DirectoryIndex intranet.html
-<Directory /var/www/smr/intranet>
-AuthType Basic
-AuthName "Intranet SMR"
-AuthUserFile /etc/apache2/.htpasswd
-Require valid-user
-</Directory>
-</VirtualHost> ``
 
+<VirtualHost *:9999>
+    ServerName [www.smr.com](https://www.smr.com)
+    DocumentRoot /var/www/smr/intranet
+    DirectoryIndex intranet.html
+
+    <Directory /var/www/smr/intranet>
+        AuthType Basic
+        AuthName "Intranet SMR"
+        AuthUserFile /etc/apache2/.htpasswd
+        Require valid-user
+    </Directory>
+</VirtualHost>
