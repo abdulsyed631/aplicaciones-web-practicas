@@ -6,7 +6,7 @@ sudo mkdir -p /var/www/smr/web /var/www/smr/intranet
 echo "<h1> Intranet de SMR </h1>" | sudo tee /var/www/smr/intranet/intranet.html
     y con estos commando dos archivos del html
 
-Paso 2 Crear Usario de la internet 
+<h3> Paso 2 Crear Usario de la internet </h3>
 
 sudo apt install apache2-utils -y
 Sudo htpasswd -c /etc/apache2/.htpasswd alumno
