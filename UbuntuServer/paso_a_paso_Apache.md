@@ -17,9 +17,8 @@ Sudo htpasswd -c /etc/apache2/.htpasswd alumno
 sudo nano /etc/apache2/ports.conf
     cuando estoy en este archivo añadir el listen 9999
 
-Paso 4 · Crear el virtualhost
-    sudo nano /etc/apache2/sites -available/smr.conf    me vot aqui y pego este commando
-    
+<h3> Paso 4 · Crear el virtualhost
+    sudo nano /etc/apache2/sites -available/smr.conf    me vot aqui y pego este commando </h3> 
     
 
   ``  <VirtualHost *:80>
