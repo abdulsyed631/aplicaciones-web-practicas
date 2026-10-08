@@ -15,7 +15,7 @@ Sudo htpasswd -c /etc/apache2/.htpasswd alumno
 
 <h3>Paso 3 Decirle a pache que escuche en el puerto 9999</h3>
 sudo nano /etc/apache2/ports.conf
-cuando estoy en este archivo añadir el listen 9999
+    cuando estoy en este archivo añadir el listen 9999
 
 
 
