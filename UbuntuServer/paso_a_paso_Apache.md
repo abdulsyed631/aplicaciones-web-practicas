@@ -3,7 +3,7 @@
 sudo mkdir -p /var/www/smr/web /var/www/smr/intranet      
     Con esto commando he creado la 2 carpetas en estos dirrectorio a la vez
 
-echo "<h1> Intranet de SMR </h1>" | sudo tee /var/www/smr/intranet/intranet.html
+echo "<huno> Intranet de SMR </huno>" | sudo tee /var/www/smr/intranet/intranet.html
     y con estos commando dos archivos del html
 
 <h3> Paso 2 Crear Usario de la internet </h3>
