@@ -19,8 +19,7 @@ sudo nano /etc/apache2/ports.conf
 
 Paso 4 · Crear el virtualhost
     sudo nano /etc/apache2/sites -available/smr.conf    me vot aqui y pego este commando
-
-  ``  
+    ```apache  
     <VirtualHost *:80>
 ServerName www.smr.com
 DocumentRoot /var/www/smr/web
@@ -36,5 +35,5 @@ AuthUserFile /etc/apache2/.htpasswd
 Require valid-user
 </Directory>
 </VirtualHost>
-``
+```
 
