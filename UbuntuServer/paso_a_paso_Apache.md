@@ -1,4 +1,4 @@
-Paso 1 · Crear las carpetas y las páginas
+<h3> Paso 1 · Crear las carpetas y las páginas </h3>
 
 sudo mkdir -p /var/www/smr/web /var/www/smr/intranet      
     Con esto commando he creado la 2 carpetas en estos dirrectorio a la vez
