@@ -52,6 +52,14 @@ echo '<h1>sitio1.local</h1>' | sudo tee /var/www/sitio1/index.html
 </VirtualHost>
 ```
 
+#Reiniciar Apache
+
+
+# Comprobacion
+
+
+#UBUNTU
+
 
 
 
