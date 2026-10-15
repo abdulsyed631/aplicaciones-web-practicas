@@ -86,8 +86,10 @@ Comprueba que Apache ejecuta PHP:
 Abre ``http://IP_DE_TU_SERVIDOR/info.php```en el navegador. Debe aparecer una página morada con la versión de PHP
 
 Borra el fichero de prueba (obligatorio):
-``sudo rm /var/www/html/info.php
-ls /var/www/html``
+```
+sudo rm /var/www/html/info.php
+ls /var/www/html
+``
 
 
 
