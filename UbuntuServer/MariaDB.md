@@ -39,10 +39,12 @@ systemctl is-enabled mariadb
 
 # PASO 4
 ```sudo mariadb```
+si todo esta bien apareceria esto :
 ```
 Welcome to the MariaDB monitor. Commands end with ; or \g.
 Server version: 10.11.14-MariaDB-0ubuntu0.24.04.1 Ubuntu 24.04
 MariaDB [(none)]>
 ```
+
 
 
