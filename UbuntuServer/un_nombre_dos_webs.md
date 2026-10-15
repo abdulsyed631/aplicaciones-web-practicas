@@ -6,19 +6,19 @@ sudo mkdir -p /var/www/smr/web /var/www/smr/intranet
 echo "<huno> Intranet de SMR </huno>" | sudo tee /var/www/smr/intranet/intranet.html
     y con estos commando dos archivos del html
 
-<h4> Paso 2 Crear Usario de la internet </h4>
+# Paso 2 Crear Usario de la internet 
 
 sudo apt install apache2-utils -y
 Sudo htpasswd -c /etc/apache2/.htpasswd alumno
 
 
 
-<h4>Paso 3 Decirle a pache que escuche en el puerto 9999</h4>
+# Paso 3 Decirle a pache que escuche en el puerto 9999
 sudo nano /etc/apache2/ports.conf
     cuando estoy en este archivo añadir el listen 9999
     
 ____
-<h4> Paso 4 · Crear el virtualhost
+# Paso 4 · Crear el virtualhost 
 sudo nano /etc/apache2/sites -available/smr.conf    
     me vot aqui y pego este commando </h4> 
 
