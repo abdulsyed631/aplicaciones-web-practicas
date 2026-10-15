@@ -91,6 +91,13 @@ sudo rm /var/www/html/info.php
 ls /var/www/html
 ```
 
+# PASO 7
+```
+systemctl is-active apache2 mariadb
+php -v
+```
+``is-active debe responder active dos veces. Completa en tu memoria este resumen``
+
 
 
 
