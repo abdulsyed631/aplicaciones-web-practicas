@@ -12,4 +12,4 @@ Modifica o crea el archivo HTML dentro de esa ruta señalada; todo el contenido 
 
 # Desactivar la web de antes y poner la nueva en Apache
 
-Hacemos una copia del archivo `000-default.conf` que está dentro de `sites-available`` y le ponemos de nombre smr.conf
+Hacemos una copia del archivo `000-default.conf` que está dentro de ``sites-available`` y le ponemos de nombre smr.conf
