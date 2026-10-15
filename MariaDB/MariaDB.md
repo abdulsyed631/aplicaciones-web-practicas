@@ -81,7 +81,13 @@ Comprueba que PHP puede hablar con MariaDB:
 ```php -m | grep -i mysql```
 
 
+Comprueba que Apache ejecuta PHP:
+```echo '<?php phpinfo();' | sudo tee /var/www/html/info.php```
+Abre ``http://IP_DE_TU_SERVIDOR/info.php```en el navegador. Debe aparecer una página morada con la versión de PHP
 
+Borra el fichero de prueba (obligatorio):
+``sudo rm /var/www/html/info.php
+ls /var/www/html``
 
 
 
