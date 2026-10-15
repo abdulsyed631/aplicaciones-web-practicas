@@ -46,5 +46,13 @@ Server version: 10.11.14-MariaDB-0ubuntu0.24.04.1 Ubuntu 24.04
 MariaDB [(none)]>
 ```
 
+# COmandos principales
+```
+Comando Función
+sudo systemctl start mariadb Arranca el servicio
+sudo systemctl stop mariadb Detiene el servicio
+sudo systemctl restart mariadb Reinicia el servicio
+sudo systemctl status mariadb Muestra su estado
+sudo systemctl enable mariadb Lo arranca automáticamente al encender el equipo
 
-
+```
