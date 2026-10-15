@@ -12,3 +12,21 @@ Cómo encaja todo (el LAMP):
 (el visitante) (sirve la web) (ejecuta WordPress) (guarda los datos)
 ```
 Ya tienes Linux y Apache. Hoy instalas las dos piezas que faltan: MariaDB y PHP
+
+# PASO 1
+```
+sudo apt update
+systemctl is-active apache2
+```
+
+# PASO 2
+```
+sudo apt install mariadb-server -y
+```
+Comprueba la versión instalada:
+```mariadb --version```
+Debes ver algo parecido a esto (el último número puede variar):
+```mariadb Ver 15.1 Distrib 10.11.14-MariaDB, for debian-linux-gnu (x86_64)```
+
+
+# PASO 3 
