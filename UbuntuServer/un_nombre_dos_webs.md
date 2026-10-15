@@ -20,6 +20,15 @@ sudo nano /etc/apache2/ports.conf
 <h4> Paso 4 · Crear el virtualhost
 sudo nano /etc/apache2/sites -available/smr.conf    
     me vot aqui y pego este commando </h4> 
+
+```
+sudo cp /etc/apache2/sites-available/000-default.conf \
+ /etc/apache2/sites-available/sitio1.conf
+sudo mkdir -p /var/www/sitio1
+echo '<h1>sitio1.local</h1>' | sudo tee /var/www/sitio1/index.html
+
+```
+    
     
 
   ```apache
@@ -41,5 +50,7 @@ sudo nano /etc/apache2/sites -available/smr.conf
     </Directory>
 </VirtualHost>
 ```
+
+
 
 
