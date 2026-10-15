@@ -62,9 +62,13 @@ sudo systemctl restart apache2 | Reinicia el sistema de apache
 ```
 
 # Comprobacion
-
+Ahora encendemos la máquina virtual y comprobamos que esté en la misma red. Para esto, vamos a la configuración de la red en la máquina virtual y elegimos NAT
 
 # UBUNTU
+sudo nano /etc/hosts | Nos metemos a la conf de los hosts locales
+ip del servidor www.smr.com 
+
+"Ahora, si abrimos un navegador como Firefox y escribimos [http://www.smr.com](http://www.smr.com), debería funcionar. Y si escribimos [http://www.smr.com:9999](http://www.smr.com:9999), entraremos a la página que pide contraseña.
 
 
 
