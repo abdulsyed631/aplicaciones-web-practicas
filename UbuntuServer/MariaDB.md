@@ -55,3 +55,33 @@ sudo systemctl restart mariadb Reinicia el servicio
 sudo systemctl status mariadb Muestra su estado
 sudo systemctl enable mariadb Lo arranca automáticamente al encender el equipo                    (esta mal ignore )
 ```
+ 
+
+
+# PASO 5
+```
+sudo systemctl stop mariadb
+systemctl is-active mariadb
+sudo mariadb
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
