@@ -30,3 +30,19 @@ Debes ver algo parecido a esto (el último número puede variar):
 
 
 # PASO 3 
+```
+sudo systemctl status mariadb
+systemctl is-enabled mariadb
+```
+(Active) running or enabled
+
+
+# PASO 4
+```sudo mariadb```
+```
+Welcome to the MariaDB monitor. Commands end with ; or \g.
+Server version: 10.11.14-MariaDB-0ubuntu0.24.04.1 Ubuntu 24.04
+MariaDB [(none)]>
+```
+
+
