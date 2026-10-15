@@ -16,12 +16,12 @@ sudo nano /var/www/html/.htaccess
 
 # Paso 4
 
-'''
+``
 AuthType Basic
 AuthName "Privado"
 AuthUserFile /etc/apache2/.htpasswd
 Require valid-user
-'''
+``
 
 sudo htpasswd -c /etc/apache2/.htpasswd smr
 
@@ -30,7 +30,7 @@ Open the Apache configuration:
 sudo nano /etc/apache2/sites-available/000-default.conf
 
 Inside <VirtualHost *:80>, add:
-'''
+```
 <Directory /var/www/html>
     <Files "smr.html">
         AuthType Basic
@@ -39,7 +39,7 @@ Inside <VirtualHost *:80>, add:
         Require valid-user
     </Files>
 </Directory>
-'''
+```
 
 restart apche
 
