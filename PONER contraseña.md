@@ -25,6 +25,10 @@ Require valid-user
 
 sudo htpasswd -c /etc/apache2/.htpasswd smr
 
+
+
+
+
 Protect only smr.html
 Open the Apache configuration:
 sudo nano /etc/apache2/sites-available/000-default.conf
