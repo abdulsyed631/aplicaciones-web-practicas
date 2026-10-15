@@ -60,19 +60,29 @@ sudo systemctl enable mariadb Lo arranca automáticamente al encender el equipo
 (esta mal ignore )
 ```
 
-
- 
-
-
 # PASO 5
 ```
 sudo systemctl stop mariadb
 systemctl is-active mariadb
 sudo mariadb
 
-
-
 ```
+
+# PASO 6 Instalación de PHP
+```
+sudo apt install php libapache2-mod-php php-mysql php-curl php-gd php-mbstring php-xml php-zip
+php-intl -y
+php -v
+```
+
+```sudo systemctl restart apache2```
+
+Comprueba que PHP puede hablar con MariaDB:
+```php -m | grep -i mysql```
+
+
+
+
 
 
 
