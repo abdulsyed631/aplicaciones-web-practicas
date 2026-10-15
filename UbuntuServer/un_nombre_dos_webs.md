@@ -52,7 +52,7 @@ echo '<h1>sitio1.local</h1>' | sudo tee /var/www/sitio1/index.html
 </VirtualHost>
 ```
 
-#Reiniciar Apache
+# Reiniciar Apache
 
 ```
 sudo a2ensite smr.conf | Activa el fichero smr.conf
@@ -64,7 +64,7 @@ sudo systemctl restart apache2 | Reinicia el sistema de apache
 # Comprobacion
 
 
-#UBUNTU
+# UBUNTU
 
 
 
