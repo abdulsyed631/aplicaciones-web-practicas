@@ -89,7 +89,8 @@ Borra el fichero de prueba (obligatorio):
 ```
 sudo rm /var/www/html/info.php
 ls /var/www/html
-``
+```
+
 
 
 
