@@ -54,6 +54,12 @@ echo '<h1>sitio1.local</h1>' | sudo tee /var/www/sitio1/index.html
 
 #Reiniciar Apache
 
+```
+sudo a2ensite smr.conf | Activa el fichero smr.conf
+sudo a2dissite 000-default.conf | Desactiva el fichero predeterminado
+sudo apachectl configtest | Esto comprueba si hay errores en alguna sintaxis en los archivos de apache
+sudo systemctl restart apache2 | Reinicia el sistema de apache
+```
 
 # Comprobacion
 
