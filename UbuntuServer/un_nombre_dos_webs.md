@@ -22,7 +22,7 @@ sudo nano /etc/apache2/sites -available/smr.conf
     me vot aqui y pego este commando </h4> 
     
 
-  ```
+  ```apache
 <VirtualHost *:80>
     ServerName [www.smr.com](https://www.smr.com)
     DocumentRoot /var/www/smr/web
